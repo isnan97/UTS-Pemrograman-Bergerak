@@ -30,43 +30,6 @@ Aplikasi Smart Finance Tracker
       date: new Date().toISOString().split('T')[0]
     });
     setShowAddTransaction(false);
-  };
-
-  const totalIncome = transactions
-    .filter(t => t.type === 'income')
-    .reduce((sum, t) => sum + t.amount, 0);
-
-  const totalExpense = transactions
-    .filter(t => t.type === 'expense')
-    .reduce((sum, t) => sum + t.amount, 0);
-
-  const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('id-ID', {
-      style: 'currency',
-      currency: 'IDR',
-      minimumFractionDigits: 0
-    }).format(amount);
-  };
-
-  const getAIInsight = () => {
-    const avgExpense = totalExpense / transactions.filter(t => t.type === 'expense').length || 0;
-    if (avgExpense > 100000) {
-      return "Pengeluaran rata-rata Anda cukup tinggi. Pertimbangkan untuk mengurangi pengeluaran non-esensial.";
-    }
-    return "Pola pengeluaran Anda terlihat sehat. Pertahankan kebiasaan baik ini!";
-  };
-
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900 p-4">
-      {/* Android Phone Frame */}
-      <div className="relative w-full max-w-sm bg-black rounded-[3rem] shadow-2xl p-3 border-8 border-gray-800">
-        {/* Phone Notch */}
-        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-40 h-7 bg-black rounded-b-3xl z-50">
-          <div className="flex items-center justify-center gap-2 h-full">
-            <div className="w-16 h-1.5 bg-gray-800 rounded-full"></div>
-            <div className="w-2 h-2 bg-gray-800 rounded-full"></div>
-          </div>
-        </div>
 
         {/* Phone Screen */}
         <div className="relative bg-white rounded-[2.5rem] overflow-hidden h-[700px] flex flex-col">
