@@ -7,44 +7,6 @@ Aplikasi Smart Finance Tracker
 # ![alt text](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/Sreenshot%202.png?raw=true)
 
 #Mycoding
-import React, { useState, useEffect } from 'react';
-import { Wallet, TrendingUp, TrendingDown, PieChart, Plus, Calendar, DollarSign, CreditCard, ShoppingBag, Coffee, Home, Car, BarChart3, Sparkles, Menu, Bell, Search } from 'lucide-react';
-
-export default function SmartFinanceTracker() {
-  const [transactions, setTransactions] = useState([]);
-  const [balance, setBalance] = useState(5000000);
-  const [showAddTransaction, setShowAddTransaction] = useState(false);
-  const [activeTab, setActiveTab] = useState('home');
-  const [newTransaction, setNewTransaction] = useState({
-    type: 'expense',
-    amount: '',
-    category: 'food',
-    description: '',
-    date: new Date().toISOString().split('T')[0]
-  });
-
-  const categories = {
-    food: { icon: Coffee, color: 'bg-orange-500', label: 'Makanan' },
-    transport: { icon: Car, color: 'bg-blue-500', label: 'Transport' },
-    shopping: { icon: ShoppingBag, color: 'bg-purple-500', label: 'Belanja' },
-    bills: { icon: Home, color: 'bg-red-500', label: 'Tagihan' },
-    income: { icon: DollarSign, color: 'bg-green-500', label: 'Pendapatan' }
-  };
-
-  useEffect(() => {
-    const sampleTransactions = [
-      { id: 1, type: 'expense', amount: 50000, category: 'food', description: 'Makan siang', date: '2026-01-13' },
-      { id: 2, type: 'expense', amount: 25000, category: 'transport', description: 'Bensin', date: '2026-01-12' },
-      { id: 3, type: 'income', amount: 1000000, category: 'income', description: 'Gaji freelance', date: '2026-01-10' },
-      { id: 4, type: 'expense', amount: 150000, category: 'shopping', description: 'Beli baju', date: '2026-01-11' },
-      { id: 5, type: 'expense', amount: 35000, category: 'food', description: 'Kopi & snack', date: '2026-01-13' },
-      { id: 6, type: 'expense', amount: 200000, category: 'bills', description: 'Listrik', date: '2026-01-09' }
-    ];
-    setTransactions(sampleTransactions);
-  }, []);
-
-  const addTransaction = () => {
-    if (!newTransaction.amount || !newTransaction.description) return;
 
     const transaction = {
       id: Date.now(),
