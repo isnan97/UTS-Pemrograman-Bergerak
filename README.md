@@ -1,9 +1,11 @@
 # UTS-Pemrograman-Bergerak
 Aplikasi Smart Finance Tracker
 
-# ![Contoh Gambar](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/pic1%20(1)%20(1).png)
-# ![Contoh Gambar](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/pic2%20(1)%20(1).png)
-# ![Contoh Gambar](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/pic3%20(1)%20(1).png)
+![Screenshot 1](https://github.com/isnan97/UTS-Pemrograman-Bergerak/raw/main/pic1%20(1)%20(1).png)
+
+![Screenshot 2](https://github.com/isnan97/UTS-Pemrograman-Bergerak/raw/main/pic2%20(1)%20(1).png)
+
+![Screenshot 3](https://github.com/isnan97/UTS-Pemrograman-Bergerak/raw/main/pic3%20(1)%20(1).png)
 
 # codingan project
 import React, { useState, useEffect } from 'react';
