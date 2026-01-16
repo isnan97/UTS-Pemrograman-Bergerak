@@ -1,8 +1,7 @@
 # UTS-Pemrograman-Bergerak
 Aplikasi Smart Finance Tracker
 
-# ![alt text](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/pic1%20(1)%20(1).png.png?raw=true)
-# ![Contoh Gambar](https://github.com/isnanPppp/UTS-Pemrograman-Bergerak1/blob/main/pic1%20(1).png)
+# ![Contoh Gambar](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/pic1%20(1)%20(1).png)
 # ![Contoh Gambar](https://github.com/isnanPppp/UTS-Pemrograman-Bergerak1/blob/main/pic2%20(1).png)
 # ![Contoh Gambar](https://github.com/isnanPppp/UTS-Pemrograman-Bergerak1/blob/main/pic3%20(1).png)
 
