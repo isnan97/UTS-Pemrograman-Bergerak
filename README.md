@@ -7,3 +7,4 @@ Aplikasi Smart Finance Tracker
 
 ![Screenshot 3](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/Screenshot%203.png)
 
+# ![alt text](https://github.com/isnan97/UTS-Pemrograman-Bergerak/blob/main/Sreenshot%201.png?raw=true)
